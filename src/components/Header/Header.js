@@ -16,7 +16,9 @@ class Header extends React.Component {
       <div className="navbar navbar-default">
         <div className="container">
           <a onClick={() => browserHistory.push(`${PREFIX_URL}/`)} className="navbar-brand">
-            {' '}
+            {BRANDING_LOGO_URL && 
+              <img src={BRANDING_LOGO_URL} alt="navbar-logo" />
+            }
             {BRANDING_HEADER_TITLE}
           </a>
           {this.props.loggedIn ? (

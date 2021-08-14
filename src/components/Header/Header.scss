@@ -11,5 +11,12 @@
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 1px;
+    display: flex;
+  }
+
+  img {
+    padding-right: 15px;
+    margin-top: -7px;
+    height: 36px;
   }
 }
